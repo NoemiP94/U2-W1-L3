@@ -20,11 +20,12 @@ header li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(122, 65, 19);
     font-weight: bold;
-    padding: 0.5em 1.5em;
+    padding: 0.5em 30px;
     border-radius: 30px;
     margin: 0.5em;
     text-align: center;
     font-size: 10px;
+    margin-bottom: 1em;
 }
 
 header li img {
@@ -36,7 +37,7 @@ header li img {
 
 .shop{
     display: flex;
-    padding: 2em 1;
+    padding: 9px 80px;
     align-items: center;
     border-radius: 50px;
     flex-wrap: nowrap;
