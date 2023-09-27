@@ -1,0 +1,27 @@
+.container-article {
+    background-color: rgb(241, 234, 168); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(122, 65, 19);
+    padding: 1em;
+    border-radius: 30px;
+}
+
+.container-article img {
+    width: 100%;
+
+}
+
+.container-article h3 {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 1200px){
+    .container-article{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+   .text-article {
+        padding: 0 1em;
+    }
+}
