@@ -2,31 +2,38 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(122, 65, 19);
+}
+
 .card {
     width: 355px;
     height: 395px;
-    border-radius:30%;
+    border-radius:16%;
+    overflow: hidden;
     color: rgb(122, 65, 19);
-    background-color: rgb(241, 234, 168); 
+    background-color: rgb(254 247 226); 
     margin: 10px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .card img {
-    width:100%;
-    border-radius: 30% 30% 0 0;
-    
+    width:100%;    
 }
 
 .card button {
     color: rgb(122, 65, 19);
-    background-color: rgb(226, 214, 109);
-    border:1px solid rgb(226, 214, 109);
+    background-color: rgb(255 223 127);
+    border:1px solid rgb(255 223 127);
     border-radius: 20px;
-    padding: 0.5em 2em;
+    padding: 0.5em 4em;
     margin-bottom: 0.8em;
 }
 
@@ -45,6 +52,7 @@ body {
 
 .text p {
     margin-top:6px;
+    font-size: 14px;
 }
 
 .text:nth-child(4){
