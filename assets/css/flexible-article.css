@@ -21,8 +21,8 @@ h2{
 }
 
 
-@media screen and (min-width: 576px) {
-    aside {
+@media screen and (min-width: 576px) and (max-width: 1199px) {
+    #section2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -49,11 +49,15 @@ h2{
     .container-article{
         display: flex;
         flex-direction: row-reverse;
+        width: 90em;
     }
 
    .text-article {
         padding: 0 1em;
     }
 
-    
+    h2 {
+        text-align: left;
+        margin-left: 0.5em;
+    }    
 }
