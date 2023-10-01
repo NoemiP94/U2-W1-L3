@@ -19,8 +19,6 @@ header ul {
 header li {
     list-style-type: none;
     background-color: rgb(255 223 127);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(122, 65, 19);
     font-weight: bold;
     padding: 15px 31px;
     border-radius: 30px;

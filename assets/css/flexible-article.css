@@ -1,7 +1,10 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
 .container-article {
-    background-color: rgb(241, 234, 168); 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(122, 65, 19);
+    background-color: rgb(254 247 226); 
     padding: 1em;
     border-radius: 30px;
 }
@@ -13,6 +16,7 @@
 
 .container-article h3 {
     font-size: 20px;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 1200px){

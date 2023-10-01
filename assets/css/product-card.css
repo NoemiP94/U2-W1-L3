@@ -1,12 +1,12 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(122, 65, 19); 
 }
 
 h1 {
     text-align: center;
     font-size: 2.5em;
     font-weight: bold;
-    color: rgb(122, 65, 19);
 }
 
 .card {
@@ -14,7 +14,6 @@ h1 {
     height: 395px;
     border-radius:16%;
     overflow: hidden;
-    color: rgb(122, 65, 19);
     background-color: rgb(254 247 226); 
     margin: 10px;
     text-align: center;
@@ -29,7 +28,6 @@ h1 {
 }
 
 .card button {
-    color: rgb(122, 65, 19);
     background-color: rgb(255 223 127);
     border:1px solid rgb(255 223 127);
     border-radius: 20px;
@@ -40,10 +38,10 @@ h1 {
 .text {
     display: flex;
     flex-wrap: wrap;
-   align-items:center;
-   justify-content: space-evenly;
-   font-size:16px;
-   padding: 0 2em;
+    align-items:center;
+    justify-content: space-evenly;
+    font-size:16px;
+    padding: 0 2em;
 }
 
 .text h3 {
